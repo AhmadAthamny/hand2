@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{069075FB-F7F3-4670-AD14-53A94B5282F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hand2</RootNamespace>
+    <AssemblyName>Hand2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="The Forms\BigCEOPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\BigCEOPicture.Designer.cs">
+      <DependentUpon>BigCEOPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\aboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\aboutUs.Designer.cs">
+      <DependentUpon>aboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\addCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\addCar.Designer.cs">
+      <DependentUpon>addCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Classes\Admin.cs" />
+    <Compile Include="The Forms\AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\carDisplayInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\carDisplayInfo.Designer.cs">
+      <DependentUpon>carDisplayInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\carRentFullPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\carRentFullPicture.Designer.cs">
+      <DependentUpon>carRentFullPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\CarRentPeriods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\CarRentPeriods.Designer.cs">
+      <DependentUpon>CarRentPeriods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\carRentShowMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\carRentShowMap.Designer.cs">
+      <DependentUpon>carRentShowMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\carRentSquare.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\carRentSquare.Designer.cs">
+      <DependentUpon>carRentSquare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Classes\Cars.cs" />
+    <Compile Include="The Forms\changePw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\changePw.Designer.cs">
+      <DependentUpon>changePw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\chooseBuyRent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\chooseBuyRent.Designer.cs">
+      <DependentUpon>chooseBuyRent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\Credits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\Credits.Designer.cs">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Classes\dbCars.cs" />
+    <Compile Include="The Classes\dbRentStations.cs" />
+    <Compile Include="The Forms\editCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\editCar.Designer.cs">
+      <DependentUpon>editCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\feedBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\feedBack.Designer.cs">
+      <DependentUpon>feedBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\forgotPW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\forgotPW.Designer.cs">
+      <DependentUpon>forgotPW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HandDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HandDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\mainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\mainPage.Designer.cs">
+      <DependentUpon>mainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\MainPageMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\MainPageMenu.Designer.cs">
+      <DependentUpon>MainPageMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\messageDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\messageDisplay.Designer.cs">
+      <DependentUpon>messageDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\messageDisplayInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\messageDisplayInfo.Designer.cs">
+      <DependentUpon>messageDisplayInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="The Classes\RentCar.cs" />
+    <Compile Include="The Forms\RentNowPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\RentNowPage.Designer.cs">
+      <DependentUpon>RentNowPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Classes\rentPeriod.cs" />
+    <Compile Include="The Classes\rentStation.cs" />
+    <Compile Include="The Classes\reports.cs" />
+    <Compile Include="The Forms\RespondOrView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\RespondOrView.Designer.cs">
+      <DependentUpon>RespondOrView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Forms\SendEmailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\SendEmailForm.Designer.cs">
+      <DependentUpon>SendEmailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Classes\sqlConnection.cs" />
+    <Compile Include="The Classes\User.cs" />
+    <Compile Include="The Classes\dbUser.cs" />
+    <Compile Include="The Forms\initPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\initPage.Designer.cs">
+      <DependentUpon>initPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The Classes\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="The Forms\viewMessages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Forms\viewMessages.Designer.cs">
+      <DependentUpon>viewMessages.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="The Forms\BigCEOPicture.resx">
+      <DependentUpon>BigCEOPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\aboutUs.resx">
+      <DependentUpon>aboutUs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\addCar.resx">
+      <DependentUpon>addCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\carDisplayInfo.resx">
+      <DependentUpon>carDisplayInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\carRentFullPicture.resx">
+      <DependentUpon>carRentFullPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\CarRentPeriods.resx">
+      <DependentUpon>CarRentPeriods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\carRentShowMap.resx">
+      <DependentUpon>carRentShowMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\carRentSquare.resx">
+      <DependentUpon>carRentSquare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\changePw.resx">
+      <DependentUpon>changePw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\chooseBuyRent.resx">
+      <DependentUpon>chooseBuyRent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\Credits.resx">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\editCar.resx">
+      <DependentUpon>editCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\feedBack.resx">
+      <DependentUpon>feedBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\forgotPW.resx">
+      <DependentUpon>forgotPW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\initPage.resx">
+      <DependentUpon>initPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\mainPage.resx">
+      <DependentUpon>mainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\MainPageMenu.resx">
+      <DependentUpon>MainPageMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\messageDisplay.resx">
+      <DependentUpon>messageDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\messageDisplayInfo.resx">
+      <DependentUpon>messageDisplayInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\RentNowPage.resx">
+      <DependentUpon>RentNowPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\RespondOrView.resx">
+      <DependentUpon>RespondOrView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\SendEmailForm.resx">
+      <DependentUpon>SendEmailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Forms\viewMessages.resx">
+      <DependentUpon>viewMessages.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="HandDatabaseDataSet.xsc">
+      <DependentUpon>HandDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HandDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HandDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HandDatabaseDataSet.xss">
+      <DependentUpon>HandDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HandDatabase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="HandDatabase_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>HandDatabase.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\rsz_snapchat-1174774525.jpg" />
+    <None Include="Resources\Snapchat-1174774525.jpg" />
+    <None Include="Resources\WhatsApp Image 2019-03-15 at 20.06.16.jpeg" />
+    <None Include="Resources\me.jpg" />
+    <None Include="Resources\anotherwhiteblack.png" />
+    <None Include="Resources\logo_whiteblack.png" />
+    <None Include="Resources\third_version.png" />
+    <None Include="Resources\loading.png" />
+    <None Include="Resources\Untitled-121.png" />
+    <None Include="Resources\visa.jpg" />
+    <None Include="Resources\buycar.png" />
+    <None Include="Resources\rentcar.png" />
+    <None Include="Resources\Untitled-1.png" />
+    <None Include="Resources\rsz_7706.png" />
+    <None Include="Resources\rsz_2000px-back_arrowsvg.png" />
+    <None Include="Resources\rsz_warning-02-512.png" />
+    <None Include="Resources\rsz_1265247-200.png" />
+    <None Include="Resources\rsz_11642-200.png" />
+    <None Include="Resources\rsz_122592-200.png" />
+    <None Include="Resources\rsz_22592-200.png" />
+    <None Include="Resources\rsz_search_33363.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
