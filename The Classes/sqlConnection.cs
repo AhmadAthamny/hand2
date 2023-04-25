@@ -14,22 +14,21 @@ namespace Hand2
         }
         public string returnConnectionString()
         {
-
-            string sqlDBLocation = @"C:\Users\אחמד עתאמנה\Documents\Visual Studio 2010\Projects\Hand2\Hand2\HandDatabase.mdf"; // Edit this variable only, please don't touch anything else.
-
             string workingDirectory = Environment.CurrentDirectory;
             string projectDirectory = Directory.GetParent(workingDirectory).Parent.FullName;
 
-            if (File.Exists(projectDirectory + "\\HandDatabase.mdf")) 
-                sqlDBLocation = projectDirectory + "\\HandDatabase.mdf";
-            else
-                if (!File.Exists(sqlDBLocation))
-                {
-                    MessageBox.Show("Sorry, the SQL database file wasn't found.\n\nTo fix this, please open the project code, open \"sqlConnection.cs\" file and edit the \"sqlDBLocation\" to the current one.\n\nSorry for the inconvinence.");
-                    System.Environment.Exit(1);
-                }
-            return @"Data Source=.\SQLExpress;Integrated Security=true; 
-        AttachDbFilename="+sqlDBLocation+";User Instance=true";
+            string sqlDBLocation = projectDirectory + "\\HandDatabase.mdf";
+            if (!File.Exists(sqlDBLocation))
+            {
+                MessageBox.Show("Sorry, the SQL database file wasn't found.\n\nYou can download it from the link provided in README file of the Github repo.\n\nFor more information, contact Ahmad! :)");
+                System.Environment.Exit(1);
+            }
+            return @"Data Source=(LocalDB)\MSSQLLocalDB;
+        AttachDbFilename=" + sqlDBLocation+ ";Integrated Security=True; Connect Timeout=30";
+
+            //Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Users\Ahmad Athamny\Desktop\high-school-project\Hand2\HandDatabase.mdf";Integrated Security=True;Connect Timeout=30
+
+            //Data Source =.\SQLEXPRESS;AttachDbFilename="C:\Users\Ahmad Athamny\Desktop\high-school-project\Hand2\HandDatabase.mdf"; Integrated Security = True; User Instance = True
         }
     }
 }
