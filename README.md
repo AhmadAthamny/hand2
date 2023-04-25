@@ -43,8 +43,7 @@ The application includes an advanced management board:
 ## Installation Requirements:
 * Two database files from the following link: [Click Here](https://drive.google.com/drive/folders/1aqOHa3WjBD5j_EAz5peeSqM6lgdWUE0R?usp=share_link)
 * Install ".NET desktop development" package from the Visual Studio installer.
-
-**Note:** make sure the option "SQL Server Express LocalDB" is selected before installing.
+  **Note:** make sure the option "SQL Server Express LocalDB" is selected before installing.
 
 ## Installation:
 1. Clone the repo.
