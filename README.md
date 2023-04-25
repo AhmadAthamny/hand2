@@ -11,8 +11,9 @@ Install ".NET desktop development" package from the Visual Studio installer.
 **Note:** make sure the option "SQL Server Express LocalDB" is selected before installing.
 
 ## Installation:
-1. Clone the repo into. 
+1. Clone the repo.
 2. Download both database files from the link above.
 3. Move the downloaded files to the project's main directory.
+4. Open the project from Visual Studio.
 
 That's all.
