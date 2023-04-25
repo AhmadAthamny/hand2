@@ -7,7 +7,8 @@ https://drive.google.com/drive/folders/1aqOHa3WjBD5j_EAz5peeSqM6lgdWUE0R?usp=sha
 
 ## Installation Requirements:
 Install ".NET desktop development" package from the Visual Studio installer.
-[b]Note:[/b] make sure the option "SQL Server Express LocalDB" is selected before installing.
+**Note:** make sure the option "SQL Server Express LocalDB" is selected before installing.
+
 ## Installation:
 1- Clone the repo into. 
 2- Download both database files from the link above.
