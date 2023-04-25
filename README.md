@@ -28,7 +28,8 @@ This is the second section of the app, renting.
 
 ### 3- Administration:
 ![image](https://user-images.githubusercontent.com/36423427/234216584-5e689c22-edc9-4d95-b407-f8df1e2bb830.png)
-The application includes an advanced management board:
+The application includes an advanced management board.
+* There are different level of admins. (each position in the company has an admin level)
 * Manage rent stations (add/edit/remove).
 * Manage rent cars and for-sale cars.
 * Manage users.
