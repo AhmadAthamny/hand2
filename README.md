@@ -28,16 +28,21 @@ This is the second section of the app, renting.
 
 ### 3- Administration:
 ![image](https://user-images.githubusercontent.com/36423427/234216584-5e689c22-edc9-4d95-b407-f8df1e2bb830.png)
+The application includes an advanced management board:
+* Manage rent stations (add/edit/remove).
+* Manage rent cars and for-sale cars.
+* Manage users.
+* Boardcast: admins can send a broadcast to all users, or to a specific level of admin, broadcast message can be sent to users' emails as well.
+* View logs: admins can view management log/history of the app.
+* Feedback & Reports: Read and respond to feedback and reports from users.
+* Statistics: Shows statistics about the application between two specified dates.
+![image](https://user-images.githubusercontent.com/36423427/234218657-f311408f-1d3b-4b78-b70f-1800980b91df.png)
+![image](https://user-images.githubusercontent.com/36423427/234218760-6c0644ec-6a65-4ae1-aec0-55b5d2c0642a.png)
 
-There is an advanced administration panel.
-
-
-
-#### ** This is the link for data used in the application:
-https://drive.google.com/drive/folders/1aqOHa3WjBD5j_EAz5peeSqM6lgdWUE0R?usp=share_link
 
 ## Installation Requirements:
-Install ".NET desktop development" package from the Visual Studio installer.
+* Two database files from the following link: https://drive.google.com/drive/folders/1aqOHa3WjBD5j_EAz5peeSqM6lgdWUE0R?usp=share_link
+* Install ".NET desktop development" package from the Visual Studio installer.
 
 **Note:** make sure the option "SQL Server Express LocalDB" is selected before installing.
 
