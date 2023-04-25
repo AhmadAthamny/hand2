@@ -4,24 +4,33 @@ For my computer science project bagrut, I've chosen to make a windows form appli
 ## Overview
 First, users can use the app without logging in, but they won't be able to use many features, such as sending messages, posting cars for sale, renting a car, sending feedback, and more.
 
-Users can sign up using their email address and password, also they can reset the password at any time:
-They enter their email address, a verification code gets sent to their email, they copy & paste it in the app, and they will be able to choose a new password.
+* Users can sign up using their email address and password.
+* They can reset the password at any time with a verification code sent to their email upon request.
+* Users can contact admins for support, and for feedback. (See administration section below)
 
 ### 1- Cars for sale:
 ![rsz_screenshot_2023-04-25_102519](https://user-images.githubusercontent.com/36423427/234205117-5b65c9ec-d60a-40a4-a18d-11d407d08309.png)
 In this section of the app, users can search cars for-sale, and add theirs as well.
 * Car owner can edit information of his car after posting it.
 
-* Users can send messages to other car owners if they want to buy their cars, the message will be sent in the app, also the car seller will be notified through Email about the new message they have received.
+* Users can send messages to other car owners if they want to buy their cars, the message is sent in the app, also the car seller gets notified through Email about the new message they have received.
 
-* In addition, users can report a posted car to admins (administration section below) in case they find a "bad" car posted, such as irrelevant car images, bad text or description, and more.
+* Users can report a "bad posted" car to admins.
 
 * Users can filter results and search for the car they need.
 
 ### 2- Cars for rent:
 ![image](https://user-images.githubusercontent.com/36423427/234210815-506cc24a-6770-42bb-ac85-b8858904a48b.png)
 This is the second section of the app, renting.
-There are rent stations defined in the application (admins can add/edit/delete rent stations), and in a given moment, each rent car is parked at a specified station.
+* There are rent stations defined in the application (admins can add/edit/delete rent stations), such that, in a given moment, each rent car is parked at a specified station.
+* User can rent a car from its station in a specific date (of his choice), and return it to a different station in a specific date as well.
+![image](https://user-images.githubusercontent.com/36423427/234215826-00b0feae-6e7e-4bb0-a37c-c05bd84991f6.png)
+
+### 3- Administration:
+![image](https://user-images.githubusercontent.com/36423427/234216584-5e689c22-edc9-4d95-b407-f8df1e2bb830.png)
+
+There is an advanced administration panel.
+
 
 
 #### ** This is the link for data used in the application:
