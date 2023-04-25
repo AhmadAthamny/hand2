@@ -1,6 +1,7 @@
 # Hand2
 For my computer science project bagrut, I've chosen to make a windows form application similar to the official yad2 website, in addition to car rental section.
 
+## Overview
 First, users can use the app without logging in, but they won't be able to use many features, such as sending messages, posting cars for sale, renting a car, sending feedback, and more.
 
 Users can sign up using their email address and password, also they can reset the password at any time:
