@@ -15,5 +15,3 @@ Install ".NET desktop development" package from the Visual Studio installer.
 2. Download both database files from the link above.
 3. Move the downloaded files to the project's main directory.
 4. Open the project from Visual Studio.
-
-That's all.
