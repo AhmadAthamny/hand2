@@ -15,7 +15,7 @@ namespace Hand2
 {
     public partial class initPage : Form
     {
-        string API_KEY = "81GJA929K12G@$"; // DONT CHANGE THIS
+        string API_KEY = "zgdwgjcevfsnoqoo"; // DONT CHANGE THIS
 
         int redirectID;
         mainPage to_redirect;
@@ -138,7 +138,7 @@ namespace Hand2
             {
                 try
                 {
-                    var msg = new MailMessage("thehandtwo@gmail.com", to, title, content);
+                    var msg = new MailMessage("Hand2 - Password Reset <thehandtwo@gmail.com>", to, title, content);
                     msg.IsBodyHtml = true;
                     var smtpClient = new SmtpClient("smtp.gmail.com", 587);
                     smtpClient.UseDefaultCredentials = true;

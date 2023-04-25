@@ -61,5 +61,10 @@ namespace Hand2
         {
             the_mainpage.Enabled = true;
         }
+
+        private void forgotPW_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,7 +16,7 @@ namespace Hand2
 {
     public partial class AdminForm : Form
     {
-        string API_KEY = "81GJA929K12G@$"; // DONT CHANGE THIS
+        string API_KEY = "zgdwgjcevfsnoqoo"; // DONT CHANGE THIS
         User u;
         int buyOrRent;
         int selectedRow = -1;
@@ -702,7 +702,7 @@ namespace Hand2
                 var msg = new MailMessage();
                 for (int i = 0; i < the_array.Length; i++)
                     msg.Bcc.Add(the_array[i]);
-                msg.From = new MailAddress("thehandtwo@gmail.com");
+                msg.From = new MailAddress("Hand2 Broadcast <thehandtwo@gmail.com>");
                 msg.Body = content;
                 msg.Subject = title;
                 msg.IsBodyHtml = true;
