@@ -7,6 +7,7 @@ https://drive.google.com/drive/folders/1aqOHa3WjBD5j_EAz5peeSqM6lgdWUE0R?usp=sha
 
 ## Installation Requirements:
 Install ".NET desktop development" package from the Visual Studio installer.
+
 **Note:** make sure the option "SQL Server Express LocalDB" is selected before installing.
 
 ## Installation:
