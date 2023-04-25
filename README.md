@@ -33,8 +33,8 @@ The application includes an advanced management board.
 * Manage rent stations (add/edit/remove).
 * Manage rent cars and for-sale cars.
 * Manage users.
-* Boardcast: admins can send a broadcast to all users, or to a specific level of admin, broadcast message can be sent to users' emails as well.
-* View logs: admins can view management log/history of the app.
+* Boardcast: Admins can send a broadcast to all users, or to a specific level of admin, broadcast message can be sent to users' emails as well.
+* View logs: Admins can view management log/history of the app.
 * Feedback & Reports: Read and respond to feedback and reports from users.
 * Statistics: Shows statistics about the application between two specified dates.
 ![image](https://user-images.githubusercontent.com/36423427/234218657-f311408f-1d3b-4b78-b70f-1800980b91df.png)
