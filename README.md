@@ -1,6 +1,10 @@
 # Hand2
-This is the project I made for my Computer Science project at high-school.
-The project was coded in Visual Studio, it can be run again with the files provided. (look below for database).
+For my computer science project bagrut, I've chosen to make a windows form application similar to the official yad2 website, in addition to car rental section.
+
+When the app first runs, there are two options, to open list of cars for sale, or to view rent cars, of course you can switch back and forth from each section without restarting the app.
+
+![loading](https://user-images.githubusercontent.com/36423427/234203531-c7e37506-a63f-4fb6-9e5f-3add85793ddf.png)![logo_whiteblack](https://user-images.githubusercontent.com/36423427/234203545-a5d37fdc-22c8-4e3b-a15a-cc105d2b54ec.png)
+
 
 #### ** This is the link for data used in the application:
 https://drive.google.com/drive/folders/1aqOHa3WjBD5j_EAz5peeSqM6lgdWUE0R?usp=share_link
