@@ -51,4 +51,3 @@ The application includes an advanced management board:
 3. Move the downloaded files to the project's main directory.
 4. Open the project from Visual Studio.
 5. Finally, to run the application, compile it and you're ready to go.
-![rsz_1rsz_screenshot_2023-04-25_102519](https://user-images.githubusercontent.com/36423427/234205451-644b0fdc-364c-47bc-b53d-df5a1d617716.png)
